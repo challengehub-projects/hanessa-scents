@@ -1,7 +1,7 @@
 import { FaWhatsapp } from "react-icons/fa";
 
 export default function WhatsAppFloat() {
-  const whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent(
+  const whatsappUrl = `https://wa.me/07086389388?text=${encodeURIComponent(
   "✨🌹 Hello HANESSA'S SCENTS. I would like to order this fragrance. Please share availability, pricing, and payment details. 💎🥂"
 )}`;
   return (
