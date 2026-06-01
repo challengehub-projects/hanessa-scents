@@ -13,7 +13,7 @@ export default function Contact() {
   const [message, setMessage] = useState("");
 
 
-  const phoneNumber = "07086389388";
+  const phoneNumber = "23407086389388";
 
   const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
     message ||
