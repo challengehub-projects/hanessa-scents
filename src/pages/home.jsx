@@ -77,7 +77,7 @@ function Home() {
               whileTap={{ scale: 0.95 }}
               className="mt-10 px-10 py-4 rounded-full bg-[#d4af37] text-black font-semibold"
             >
-              Explore Collection
+              DM To Order
             </motion.button>
           </a>
 
