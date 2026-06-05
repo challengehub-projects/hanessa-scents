@@ -11,11 +11,10 @@ export default function Footer() {
                     {/* BRAND */}
                     <div>
                         <h1 className="text-xl tracking-[6px] font-light mb-4">
-                        Hanessa's scents
+                            Hanessa's scents
                         </h1>
                         <p className="text-white/50 text-sm leading-relaxed">
-                            Luxury fashion, beauty & lifestyle brand offering premium collections
-                            including bags, skincare, footwear, and natural oils.
+                            Premium scents and natural fragrances designed to elevate your presence with timeless elegance
                         </p>
                     </div>
 
@@ -42,22 +41,22 @@ export default function Footer() {
 
                             <div className="flex items-center gap-2">
                                 <FaPhone className="text-[#d4af37]" />
-                                <span>+234 707 891 7208</span>
+                                <span>+2347 086 389 388</span>
                             </div>
 
                             <div className="flex items-center gap-2">
                                 <FaPhone className="text-[#d4af37]" />
-                                <span>+234 707 891 7208</span>
+                                <span>+2347 086 389 388</span>
                             </div>
 
                             <div className="flex items-center gap-2">
                                 <FaEnvelope className="text-[#d4af37]" />
-                                <span>julietzuby10@gmail.com</span>
+                                <span>ezinnecovenant@gmail.com</span>
                             </div>
 
                             {/* WHATSAPP BUTTON */}
                             <a
-                                href="https://wa.me/2347078917208"
+                                href="https://wa.me/2347086389388"
                                 target="_blank"
                                 className="inline-flex items-center gap-2 mt-3 px-4 py-2 rounded-full border border-[#d4af37] text-[#d4af37] hover:bg-[#d4af37] hover:text-black transition"
                             >
@@ -88,7 +87,7 @@ export default function Footer() {
                         <FaTwitter className="text-xl hover:text-[#d4af37] transition" />
                     </a>
 
-                    <a href="mailto:julietzuby10@gmail.com">
+                    <a href="mailto:ezinnecovenant@gmail.com">
                         <FaEnvelope className="text-xl hover:text-[#d4af37] transition" />
                     </a>
 
@@ -96,7 +95,7 @@ export default function Footer() {
 
                 {/* BOTTOM TEXT */}
                 <div className="text-center mt-10 text-white/30 text-xs tracking-wide">
-                    © {new Date().getFullYear()} JUJO'LE LUXE_SCENTS. All rights reserved.
+                    © {new Date().getFullYear()} Hanessa's Scents. All rights reserved.
                 </div>
 
             </div>

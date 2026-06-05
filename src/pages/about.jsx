@@ -539,7 +539,7 @@ export default function About() {
         </p>
 
         <a
-          href="#products"
+          href="/contact"
           className="inline-block bg-[#D4AF37] text-black px-10 py-4 rounded-full font-medium hover:scale-105 transition"
         >
           Shop Collection

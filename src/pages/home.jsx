@@ -97,7 +97,7 @@ function Home() {
             transition={{ duration: 1 }}
           >
             <img
-              src="https://images.pexels.com/photos/965989/pexels-photo-965989.jpeg"
+              src="/images/img1.jpg"
               className="w-full h-[650px] object-cover rounded-[40px]"
             />
           </motion.div>
@@ -174,21 +174,23 @@ function Home() {
           <div className="grid md:grid-cols-3 gap-8">
 
             {[
+
               {
-                name: "Midnight Oud",
-                notes: "Oud • Amber • Vanilla",
-                img: "https://images.pexels.com/photos/965989/pexels-photo-965989.jpeg",
+                name: "Aromatic Essence",
+                notes: "A warm fusion of amber, soft woods, and vanilla musk",
+                img: "/images/img2.jpg",
               },
               {
-                name: "Velvet Rose",
-                notes: "Rose • Musk • Jasmine",
-                img: "https://images.pexels.com/photos/4202325/pexels-photo-4202325.jpeg",
+                name: "Floral Elegance",
+                notes: "A delicate blend of rose petals, jasmine, and soft musk",
+                img: "/images/img3.jpg",
               },
               {
-                name: "Golden Citrus",
-                notes: "Lemon • Bergamot • Cedar",
-                img: "https://images.pexels.com/photos/1190829/pexels-photo-1190829.jpeg",
+                name: "Fresh Radiance",
+                notes: "A bright composition of citrus zest, bergamot, and cedarwood",
+                img: "/images/img4.jpg",
               },
+
             ].map((item, i) => (
 
               <motion.div
@@ -217,7 +219,9 @@ function Home() {
                   </p>
 
                   <button className="mt-8 border border-[#d4af37] px-6 py-3 rounded-full hover:bg-[#d4af37] hover:text-black transition">
-                    View Fragrance
+                    <a href="/contact">
+                      Order Fragrance
+                    </a>
                   </button>
 
                 </div>
@@ -265,7 +269,7 @@ function Home() {
         </div>
 
       </section>
-      
+
       {/* ABOUT */}
 
       <section id="collections" className="bg-black text-white py-24 px-0 md:px-6">
@@ -301,32 +305,32 @@ function Home() {
 
                 {[{
                   title: "Signature Scents",
-                  img: "https://images.pexels.com/photos/965989/pexels-photo-965989.jpeg",
+                  img: "/images/img5.jpg",
                   desc: "Unique fragrances selected to help you stand out with confidence, class, and sophistication..",
                 },
                 {
                   title: "Luxury Fragrances",
-                  img: "https://images.pexels.com/photos/1190829/pexels-photo-1190829.jpeg",
+                  img: "/images/img6.jpg",
                   desc: "High-end perfumes designed with rich notes of sophistication and charm.",
                 },
                 {
                   title: "Floral Collection",
-                  img: "https://images.pexels.com/photos/4202325/pexels-photo-4202325.jpeg",
+                  img: "/images/img1.jpg",
                   desc: "Soft floral scents inspired by roses, jasmine, and natural beauty.",
                 },
                 {
                   title: "Woody & Musk",
-                  img: "https://images.pexels.com/photos/965989/pexels-photo-965989.jpeg",
+                  img: "/images/img3.jpg",
                   desc: "Deep, bold fragrances with warm woody and musky undertones.",
                 },
                 {
                   title: "Fresh & Clean",
-                  img: "https://images.pexels.com/photos/6621461/pexels-photo-6621461.jpeg",
+                  img: "/images/img4.jpg",
                   desc: "Light, refreshing perfumes perfect for daily elegance and simplicity.",
                 },
                 {
                   title: "Evening Luxury",
-                  img: "https://images.pexels.com/photos/1190829/pexels-photo-1190829.jpeg",
+                  img: "/images/img2.jpg",
                   desc: "Bold evening scents made for unforgettable nights and presence.",
                 },
                 ].map((item, i) => (
@@ -506,7 +510,7 @@ function Home() {
 
                 {/* EMAIL (CENTER FOCUS) */}
                 <motion.a
-                  href="julietzuby10@gmail.com.com"
+                  href="ezinnecovenant@gmail.com.com"
                   animate={{ y: [0, -10, 0] }}
                   transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
                   whileTap={{ scale: 0.9 }}
@@ -532,7 +536,7 @@ function Home() {
             transition={{ delay: 0.4 }}
           >
             <a
-              href="https://wa.me/2347078917208"
+              href="https://wa.me/2347086389388"
               target="_blank"
               className="relative inline-block px-8 py-3 rounded-full border border-[#d4af37] text-[#d4af37] overflow-hidden transition duration-500 group"
             >
